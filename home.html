@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+  
+<style>
+body {
+  margin: 0;
+  font-size: 30px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif       
+}
+
+.header {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+}
+
+#navbar {text-align: center;
+  overflow: hidden;
+  background-color:white;
+}
+
+#navbar a {
+  text-align: center;
+  display:inline-block;
+  color:  #0da7d1;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color:  #0da7d1;
+}
+
+#navbar a.active {
+  background-color:  #0da7d1;
+  color: white;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content  {
+  padding-top: 60px;
+}
+.grid-container {
+  margin:6rem;
+  display: grid;
+  grid-template-columns: auto auto auto ;
+  gap: 10px;
+  background-color:none;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: white;
+  border-radius: 8px;
+  border:1 px solid black;
+  text-align: center;
+  font-size: 17px;
+}
+.contente{
+  background: linear-gradient(-100deg,grey 50%, deeppink 50%);
+  height: 100vh;
+  font-family:'Times New Roman', Times, serif;
+  
+}
+.cnt{
+  margin-top: 15%;
+}
+.img-text{
+  width:100%;
+  height:300px;
+  display: block;
+  text-align: center;
+  padding: 40% 10%;
+  background: rgb(181, 144, 144);
+  color: rgb(69, 64, 64);
+  border-radius: 15px;
+}
+.img-text h2{
+  font-size:25px;
+  text-transform:uppercase;
+  letter-spacing:2px;
+}
+.img-text p{font-size: 14px;}
+.single-box{
+  position:relative;
+  height:10%;
+}
+.img-area{
+  position:absolute;
+  width:175px;
+  height:175px;
+  border:5px solid #fff;
+  overflow: hidden;
+  top: 15px;
+  left:185px;
+  border-radius: 50%;
+}
+.img-area img{width: 100%;}
+
+
+
+
+</style>
+</head>
+<body>
+<div id="navbar">
+  <a class="active" href="#00">Home</a>
+  <a href="#11">About Us</a>
+  <a href="#13">Services</a>
+  <a href="#14">Clients</a>
+  <a href="#12">Contact</a>
+  <a href="#15">Placements</a>
+
+  
+</div>
+<div class="header">
+  </div>
+ 
+<div id="#00" class="carousel slide" data-ride="carousel">
+
+        
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1" ></li>
+    
+  </ul>
+ 
+  
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="ct" style="position: absolute;
+      top: 0;
+      background: rgb(0, 0, 0); 
+      background: rgba(0, 0, 0, 0.5); 
+      color: #f1f1f1;
+      width: 100%;
+      padding: 20px;">
+        <h1 style="font-size:50px;margin-left:35rem;margin-top: 5rem;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">ALTOS TECHNOLOGIES</h1>
+        <p><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></p>
+      </div>
+      <img src="https://calbizjournal.com/wp-content/uploads/2022/08/software-engineers.jpg" alt="Los Angeles " height="auto" width ="auto" class="img-fluid">
+    </div>
+    <div class="carousel-item">
+      <div class="ct" style="position: absolute;
+      top: 0;
+      background: rgb(0, 0, 0); 
+      background: rgba(0, 0, 0, 0.5); 
+      color: #f1f1f1;
+      width: 100%;
+      padding: 20px;">
+        <h1 style="font-size:50px;margin-left:35rem;margin-top: 5rem;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">ALTOS TECHNOLOGIES</h1>
+        <p><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></p>
+      </div>
+      <img src="https://wallpaperaccess.com/full/1385386.jpg" alt="Chicago" class="img-fluid">
+    </div>
+   
+  </div>
+
+  
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+
+</div>
+
+
+
+
+
+
+<div class="content" id="11" style="background-image: url(https://wallpaperaccess.com/full/3124541.png);
+color:white;background-size: 100%;background-repeat: no-repeat;">
+  <b><h2 style="font-size:50px;text-align:left;color:#edf4f6;font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;"><br><br>
+   <br>&nbsp;&nbsp;&nbsp; About Us<br></h2><h3 style="margin-left: 3rem;font-family: 'Times New Roman', Times, serif;"><br><br><br>
+  ALTOS Technologies,
+    We Deal With The Aspects Of Professional IT<br> Solutions 
+    Elevateyour business with Altos Technologies. As a software<br> development company in India, we craft custom websites and  <br> software solutions
+   to fit your unique business needs. Our team of <br>experts delivers solutions that streamline
+     operations,<br> boost efficiency, and 
+     create a lasting impact.<br> Partner with us to take your
+      success to new<br> heights with quality and excellence at the forefront.<br><br><br><br><br><br><br><br><br><br><br></p>
+  </h3></b>
+</div>
+<div class="content" id="12" style="background-image: url(https://media.istockphoto.com/id/870307396/photo/wood-block-symbol-telephone-mail-address-and-mobile-phone-website-page-contact-us-concept.jpg?s=612x612&w=0&k=20&c=4OIvMG7Fh-mpGXvObELwwbY3WGi_JryoHg8c82mwGz8=);
+color:white;background-size: 100%;background-repeat: no-repeat;">
+  <b><h2 style="text-decoration:underline;font-size:50px;text-align: center;color:#0da7d1;font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;"><br><br>
+  Contact Us<br></h2>
+  <p style=" font-size:large;margin-left: 6rem;color:rgb(74, 71, 71);font-family: 'Times New Roman', Times, serif;">Address:</p>
+  <p style="font-size:large;margin-left: 6rem;color:rgb(74, 71, 71);font-family: 'Times New Roman', Times, serif;"> 1st floor, Thapasaya Building, Infopark, Kakanad,<br> Kochi, Kerala 682042</p>
+  <p style="font-size:large;margin-left: 6rem;color:rgb(74, 71, 71);font-family: 'Times New Roman', Times, serif;">Location:</p>
+  <p style="font-size:large;margin-left: 6rem;color:white"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62865.559593292135!2d76.27273885347842!3d10.008806926411522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080c8e94a07a07%3A0x49921cdfae82660!2sKakkanad%2C%20Kerala!5e0!3m2!1sen!2sin!4v1683998968976!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+</h3></b></div>
+<div class="content" id="13" style="background-image: url(https://wallpapers.com/images/hd/dark-blue-futuristic-technology-9gx8ynmd4a7v85n7.jpg);
+color:white;background-size: 100%;background-repeat: no-repeat;">
+  <b><h2 style="text-decoration:underline;font-size:50px;text-align: center;color:white;font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;"><br><br>
+  Services</h2>
+</b>
+
+<div class="grid-container">
+  <div  style="background-image: url(https://t4.ftcdn.net/jpg/02/39/78/63/360_F_239786338_zrvjD30tsRmBm540MOc4c9Ws5me2LybA.jpg);"><br><img src="https://images.ctfassets.net/xri6xnn81z4a/1a35MdtEoOvp9yx8hQMEjl/3c903c2fe528771bb7e6924ef97f19a8/01-Flutter-App-Development.png">
+    <br><h4 style="color:rgb(95, 91, 91);font-family: 'Times New Roman', Times, serif;">Flutter App Development</h4><p style="color: rgb(94, 91, 91);font-family: 'Times New Roman', Times, serif;">Build high performance apps in multiple<br> platforms with single code.</p></div>
+    
+    <div  style="background-image: url(https://t4.ftcdn.net/jpg/02/39/78/63/360_F_239786338_zrvjD30tsRmBm540MOc4c9Ws5me2LybA.jpg);"><br><img src="https://images.ctfassets.net/xri6xnn81z4a/3d5OXEy7YX1SmgwvMJh9Eo/139a6b548e72d76cd2075b5d0be67c0b/02-Android-App-Development.png">
+    <h4 style="color:rgb(95, 91, 91);font-family: 'Times New Roman', Times, serif;">Android Development</h4><p style="color: rgb(94, 91, 91);font-family: 'Times New Roman', Times, serif;">We build Android apps in Native with<br> great user experience and performance.</p></div>
+    
+    <div  style="background-image: url(https://t4.ftcdn.net/jpg/02/39/78/63/360_F_239786338_zrvjD30tsRmBm540MOc4c9Ws5me2LybA.jpg);"><br><img src="https://images.ctfassets.net/xri6xnn81z4a/32eiTQs4PLoM00A61ZtC8S/f91294590dec3cb0573ed19f71e88df3/03-iOS-App-Development.png">
+    <h4 style="color:rgb(95, 91, 91);font-family: 'Times New Roman', Times, serif;">iOS App Development</h4><p style="color: rgb(94, 91, 91);font-family: 'Times New Roman', Times, serif;">We build iOS Apps in Swift for <br>iPhone and iPad OS.</p></div>
+   
+    <div  style="background-image: url(https://t4.ftcdn.net/jpg/02/39/78/63/360_F_239786338_zrvjD30tsRmBm540MOc4c9Ws5me2LybA.jpg);"><br><img src="https://images.ctfassets.net/xri6xnn81z4a/nffNeMRtyVxlmTmZ9XyRw/2aa30ab896d30f83a99dfbe8f4ee976d/05-Game-Development.png">
+      <h4 style="color:rgb(95, 91, 91);font-family: 'Times New Roman', Times, serif;">Game Development</h4><p style="color: rgb(94, 91, 91);font-family: 'Times New Roman', Times, serif;">Build engaging game in Android and<br> iOS with creative animation</p></div>
+      <div  style="background-image: url(https://t4.ftcdn.net/jpg/02/39/78/63/360_F_239786338_zrvjD30tsRmBm540MOc4c9Ws5me2LybA.jpg);"><br><img src="https://images.ctfassets.net/xri6xnn81z4a/3UByjzt1VoTNywSQfjHPYA/70fdd8ca5905fd538879e785ad5a415b/01-Website-Development.png">
+        <h4 style="color:rgb(95, 91, 91);font-family: 'Times New Roman', Times, serif;">Website Development</h4><p style="color: rgb(94, 91, 91);font-family: 'Times New Roman', Times, serif;">Deliver reliable and successful web <br>development services  </p></div>
+       
+        <div  style="background-image: url(https://t4.ftcdn.net/jpg/02/39/78/63/360_F_239786338_zrvjD30tsRmBm540MOc4c9Ws5me2LybA.jpg);"><br><img src="https://images.ctfassets.net/xri6xnn81z4a/47wQ0BJrl9yppFsQpMxpOb/9f98657fb00a9fd39b4d6516e424a8a2/ux-consultant-in-india.png">
+          <h4 style="color:rgb(95, 91, 91);font-family: 'Times New Roman', Times, serif;">UX Consultant</h4><p style="color: rgb(94, 91, 91);font-family: 'Times New Roman', Times, serif;">Create great UX for products which<br> would help attract users</p></div>
+         
+          <div  style="background-image: url(https://t4.ftcdn.net/jpg/02/39/78/63/360_F_239786338_zrvjD30tsRmBm540MOc4c9Ws5me2LybA.jpg);"><br><img src="https://images.ctfassets.net/xri6xnn81z4a/3eyP3VDCenMEkzx1kCdmHE/043100bb6bb30accf9a716de90aa8820/07-Web-and-App-Design.png">
+            <h4 style="color:rgb(95, 91, 91);font-family: 'Times New Roman', Times, serif;">UserInterface Design</h4><p style="color: rgb(94, 91, 91);font-family: 'Times New Roman', Times, serif;">Focus on clean and intuitive design <br>for users to interact with.</p></div>
+           
+            <div  style="background-image: url(https://t4.ftcdn.net/jpg/02/39/78/63/360_F_239786338_zrvjD30tsRmBm540MOc4c9Ws5me2LybA.jpg);"><br><img src="https://images.ctfassets.net/xri6xnn81z4a/3NtqO0MAsB1Pr7tvjatJvi/f6e18e54eafefdaa7a2f8d3d4db63534/11-App_Security_Audit.png">
+              <h4 style="color:rgb(95, 91, 91);font-family: 'Times New Roman', Times, serif;">App Security Audit</h4><p style="color: rgb(94, 91, 91);font-family: 'Times New Roman', Times, serif;">Correcting security issues and<br> maintaining access privileges</p></div>
+             
+              <div  style="background-image: url(https://t4.ftcdn.net/jpg/02/39/78/63/360_F_239786338_zrvjD30tsRmBm540MOc4c9Ws5me2LybA.jpg);"><br><img src="https://images.ctfassets.net/xri6xnn81z4a/1Ih00LHV7JZiqo5DY989j9/1071444a0a4d9b0080d09c8e12db124e/06-Digital-Marketing-Strategy.png">
+                <h4 style="color:rgb(95, 91, 91);font-family: 'Times New Roman', Times, serif;">Digital Marketing Branding</h4><p style="color: rgb(94, 91, 91);font-family: 'Times New Roman', Times, serif;">Create a fine brand online<br> to conduct business.</p></div>
+               
+</div></div>
+<div class="content" id="14" style="background-color: white;
+color:white;background-size: 100%;background-repeat: no-repeat; width: 100%;
+      padding: 20px;">
+        <h1 style="font-size:50px;text-align:center;margin-top: 10rem;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;color: #871711;">OUR CLIENTS</h1>
+        <div class="grid-container">
+          <div>gvtyhyjup;['p;ujhytgfrtguyjhp[;'pijuh<img src="https://gothamculture.com/wp-content/uploads/client-page-logos2.jpg"></div>
+         
+        </div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+      </div></div>
+</div>  
+<div class="contente" id="15" style="
+color:white;background-size: 100%;background-repeat: no-repeat; width: 100%;
+      padding: 10px;">
+       <div class="cnt">
+        <h1 style="font-size:50px;text-align:center;margin-top: 5rem;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;color: white;">Placed Students</h1>
+        <div class="row">
+          <div class="col-md-12">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="row">
+
+                    <div class="col-md-4">
+                      <div class="single-box">
+                        <div class="img-area"><img src="https://media.licdn.com/dms/image/C4D03AQHpMQVDcEyklg/profile-displayphoto-shrink_800_800/0/1661924681805?e=2147483647&v=beta&t=ROWO4bylOUD54AGTKj3JBmNPJL5DHq-UjwgLOkd0S68"></div>
+                        <div class="img-text">
+                          <h2>Binu Joy</h2>
+                          <p>Fullstack Developer-IBM - Bangalore</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-4">
+                      <div class="single-box">
+                        <div class="img-area"><img src="https://www.ece.ucsd.edu/sites/ece.ucsd.edu/files/awards/2122-135-TrueTritonHonoree-500x500-Khan-v1.jpg"></div>
+                        <div class="img-text">
+                          <h2>Mariya Joy</h2>
+                          <p>Software Testing-TCS-Kochi</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-4">
+                      <div class="single-box">
+                        <div class="img-area"><img src="data:image/jpeg;base64,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"></div>
+                        <div class="img-text">
+                          <h2>Rohit K R</h2>
+                          <p>Software Testing-INFOSYS-Trivandrum</p>
+                        </div>
+                      </div>
+                    </div>
+
+                  
+
+                </div>
+          </div>
+        </div>
+      </div></div></div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/js/bootstrap.min.js"></script>         
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+</body>
+</html>
+
